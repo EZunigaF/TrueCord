@@ -1,0 +1,50 @@
+uuid: 8c9b7264-3aaf-4b54-8e6f-4eb3058e8ccc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.album.field_artista
+    - field.field.node.album.field_canciones_album
+    - field.field.node.album.field_lanzamiento
+    - node.type.album
+  module:
+    - datetime
+    - entity_reference_revisions
+    - user
+id: node.album.default
+targetEntityType: node
+bundle: album
+mode: default
+content:
+  field_artista:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_canciones_album:
+    type: entity_reference_revisions_entity_view
+    weight: 103
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_lanzamiento:
+    weight: 101
+    label: above
+    settings:
+      timezone_override: ''
+      date_format: Y-m-d
+    third_party_settings: {  }
+    type: datetime_custom
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

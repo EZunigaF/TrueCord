@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/oembed_thumbnails\/KIALcSr35XFI3lI15w3XLSvKO-77wC2hdnEl4Fv9OPE.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "e0ed6846-3cdb-43d7-823a-92cc7bc14de9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b34f6305-226b-4d8a-89c5-2e0d4eb4044e"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "KIALcSr35XFI3lI15w3XLSvKO-77wC2hdnEl4Fv9OPE.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/KIALcSr35XFI3lI15w3XLSvKO-77wC2hdnEl4Fv9OPE.jpg",
+            "url": "\/sites\/default\/files\/oembed_thumbnails\/KIALcSr35XFI3lI15w3XLSvKO-77wC2hdnEl4Fv9OPE.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 11196
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-16T18:34:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-16T18:34:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

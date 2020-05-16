@@ -1,0 +1,102 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/bibliografia"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/bibliografia\/field_imagen_artista": [
+            {
+                "href": "http:\/\/default\/media\/1\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "a0bde26a-2b9d-46f5-a94c-9730025acad4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "bibliografia"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-16T17:53:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_bibliografia"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_biblio_artista": [
+        {
+            "value": "<p><strong>Vampire Weekend<\/strong>&nbsp;es una banda de&nbsp;indie rock&nbsp;originaria de&nbsp;Nueva York&nbsp;y fundada en&nbsp;febrero de 2006,&nbsp;que se hizo conocida por medio de varios&nbsp;<em>blogs<\/em>&nbsp;de&nbsp;Internet. La banda est\u00e1 compuesta por el&nbsp;vocalista&nbsp;y&nbsp;guitarrista&nbsp;Ezra Koenig, el&nbsp;baterista&nbsp;y&nbsp;percusionista&nbsp;Chris Tomson&nbsp;y el bajista y vocalista&nbsp;Chris Baio.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Vampire Weekend<\/strong>\u00a0es una banda de\u00a0indie rock\u00a0originaria de\u00a0Nueva York\u00a0y fundada en\u00a0febrero de 2006,\u00a0que se hizo conocida por medio de varios\u00a0<em>blogs<\/em>\u00a0de\u00a0Internet. La banda est\u00e1 compuesta por el\u00a0vocalista\u00a0y\u00a0guitarrista\u00a0Ezra Koenig, el\u00a0baterista\u00a0y\u00a0percusionista\u00a0Chris Tomson\u00a0y el bajista y vocalista\u00a0Chris Baio.<\/p>"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/bibliografia\/field_imagen_artista": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/1\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1a3d0d20-2802-4cea-822c-08c39f919783"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+uuid: 6a592e97-e684-4f2a-88be-6c98d7d55de9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cancion.body
+    - field.field.node.cancion.field_artista_cancion
+    - field.field.node.cancion.field_genero_cancion
+    - field.field.node.cancion.field_mv
+    - node.type.cancion
+  module:
+    - text
+    - user
+id: node.cancion.teaser
+targetEntityType: node
+bundle: cancion
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_artista_cancion: true
+  field_genero_cancion: true
+  field_mv: true

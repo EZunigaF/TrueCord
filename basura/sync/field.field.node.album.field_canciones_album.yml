@@ -1,0 +1,34 @@
+uuid: 44f3e7f6-89db-48a6-ace0-aed0f68fa608
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_canciones_album
+    - node.type.album
+    - paragraphs.paragraphs_type.disco
+  module:
+    - entity_reference_revisions
+id: node.album.field_canciones_album
+field_name: field_canciones_album
+entity_type: node
+bundle: album
+label: Canciones_album
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      disco: disco
+    target_bundles_drag_drop:
+      bibliografia:
+        weight: 3
+        enabled: false
+      disco:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions

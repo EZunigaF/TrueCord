@@ -1,0 +1,18 @@
+uuid: 8e70bc70-ae81-4bf4-9f16-d428b78335c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cancion
+id: node.cancion.title
+field_name: title
+entity_type: node
+bundle: cancion
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

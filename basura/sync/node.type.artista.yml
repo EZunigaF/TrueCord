@@ -1,0 +1,18 @@
+uuid: 849ddf71-fdea-4923-a504-559011d4e8f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Artista
+type: artista
+description: ''
+help: ''
+new_revision: false
+preview_mode: 2
+display_submitted: false

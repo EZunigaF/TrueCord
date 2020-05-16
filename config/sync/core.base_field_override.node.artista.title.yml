@@ -1,0 +1,18 @@
+uuid: e72c03b5-68e1-4885-b357-02decbce0745
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.artista
+id: node.artista.title
+field_name: title
+entity_type: node
+bundle: artista
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: 830ca2fd-ec7e-4d02-9c91-8128b78c78a3
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - paragraphs
+id: paragraph.field_imagen_artista
+field_name: field_imagen_artista
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

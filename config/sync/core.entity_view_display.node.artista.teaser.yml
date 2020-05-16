@@ -1,0 +1,42 @@
+uuid: e1536b5e-ac7a-4a7c-b722-6ac8ad786b67
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.artista.field_bibliografia
+    - field.field.node.artista.field_disco
+    - field.field.node.artista.field_g
+    - node.type.artista
+  module:
+    - entity_reference_revisions
+    - user
+id: node.artista.teaser
+targetEntityType: node
+bundle: artista
+mode: teaser
+content:
+  field_bibliografia:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+  field_g:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_disco: true

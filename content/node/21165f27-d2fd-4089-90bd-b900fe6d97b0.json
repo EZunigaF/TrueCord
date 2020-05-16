@@ -1,0 +1,213 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/cancion"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/cancion\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cancion\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cancion\/field_artista_cancion": [
+            {
+                "href": "http:\/\/default\/node\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cancion\/field_genero_cancion": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/25?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cancion\/field_mv": [
+            {
+                "href": "http:\/\/default\/media\/3\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "21165f27-d2fd-4089-90bd-b900fe6d97b0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cancion"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-05-16T18:33:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/cancion\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b34f6305-226b-4d8a-89c5-2e0d4eb4044e"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cancion\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b34f6305-226b-4d8a-89c5-2e0d4eb4044e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cancion\/field_artista_cancion": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/artista"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "539125bd-327d-4a2f-aa85-2cffeca0a602"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cancion\/field_genero_cancion": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/25?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/genero"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8fe0e95f-5050-4de7-8e11-05ddecf39cfc"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cancion\/field_mv": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/3\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/remote_video"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4a325bd0-b0d1-43c9-9b4c-ac4afcadb381"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Oxford Comma",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-16T18:33:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-16T18:35:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Who gives a fuck about an Oxford comma?<br \/>\r\nI've seen those English dramas too<br \/>\r\nThey're cruel<br \/>\r\nSo if there's any other way<br \/>\r\nTo spell the word<br \/>\r\nIt's fine with me, with me<\/p>\r\n\r\n<p>Why would you speak to me that way<br \/>\r\nEspecially when I always said that I<br \/>\r\nHaven't got the words for you<br \/>\r\nAll your diction dripping with disdain<br \/>\r\nThrough the pain<br \/>\r\nI always tell the truth<\/p>\r\n\r\n<p>Who gives a fuck about an Oxford comma?<br \/>\r\nI climbed to Dharamsala too<br \/>\r\nI did<br \/>\r\nI met the highest lama<br \/>\r\nHis accent sounded fine<br \/>\r\nTo me, to me<\/p>\r\n\r\n<p>Check your handbook<br \/>\r\nIt's no trick<br \/>\r\nTake the chapstick<br \/>\r\nPut it on your lips<br \/>\r\nCrack a smile<br \/>\r\nAdjust my tie<br \/>\r\nKnow your boyfriend, unlike other guys<\/p>\r\n\r\n<p>Why would you lie about how much coal you have?<br \/>\r\nWhy would you lie about something dumb like that?<br \/>\r\nWhy would you lie about anything at all?<br \/>\r\nFirst the window, then it's to the wall<br \/>\r\nLil' Jon, he always tells the truth<\/p>\r\n\r\n<p>Check your passport<br \/>\r\nIt's no trick<br \/>\r\nTake the chapstick<br \/>\r\nPut it on your lips<br \/>\r\nCrack a smile<br \/>\r\nAdjust my tie<br \/>\r\nKnow your butler, unlike other guys<br \/>\r\nWhy would you lie about how much coal you have?<br \/>\r\nWhy would you lie about something dumb like that?<br \/>\r\nWhy would you lie about anything at all?<br \/>\r\nFirst the window, then it's through the wall<br \/>\r\nWhy would you tape my conversations?<br \/>\r\nShow your paintings<br \/>\r\nAt the United Nations<br \/>\r\nLil' Jon, he always tells the truth<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Who gives a fuck about an Oxford comma?<br \/>\nI've seen those English dramas too<br \/>\nThey're cruel<br \/>\nSo if there's any other way<br \/>\nTo spell the word<br \/>\nIt's fine with me, with me<\/p>\n\n<p>Why would you speak to me that way<br \/>\nEspecially when I always said that I<br \/>\nHaven't got the words for you<br \/>\nAll your diction dripping with disdain<br \/>\nThrough the pain<br \/>\nI always tell the truth<\/p>\n\n<p>Who gives a fuck about an Oxford comma?<br \/>\nI climbed to Dharamsala too<br \/>\nI did<br \/>\nI met the highest lama<br \/>\nHis accent sounded fine<br \/>\nTo me, to me<\/p>\n\n<p>Check your handbook<br \/>\nIt's no trick<br \/>\nTake the chapstick<br \/>\nPut it on your lips<br \/>\nCrack a smile<br \/>\nAdjust my tie<br \/>\nKnow your boyfriend, unlike other guys<\/p>\n\n<p>Why would you lie about how much coal you have?<br \/>\nWhy would you lie about something dumb like that?<br \/>\nWhy would you lie about anything at all?<br \/>\nFirst the window, then it's to the wall<br \/>\nLil' Jon, he always tells the truth<\/p>\n\n<p>Check your passport<br \/>\nIt's no trick<br \/>\nTake the chapstick<br \/>\nPut it on your lips<br \/>\nCrack a smile<br \/>\nAdjust my tie<br \/>\nKnow your butler, unlike other guys<br \/>\nWhy would you lie about how much coal you have?<br \/>\nWhy would you lie about something dumb like that?<br \/>\nWhy would you lie about anything at all?<br \/>\nFirst the window, then it's through the wall<br \/>\nWhy would you tape my conversations?<br \/>\nShow your paintings<br \/>\nAt the United Nations<br \/>\nLil' Jon, he always tells the truth<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

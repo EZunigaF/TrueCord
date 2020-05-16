@@ -1,0 +1,134 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/media\/3\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/remote_video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/remote_video\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/remote_video\/thumbnail": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/oembed_thumbnails\/KIALcSr35XFI3lI15w3XLSvKO-77wC2hdnEl4Fv9OPE.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "4a325bd0-b0d1-43c9-9b4c-ac4afcadb381"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "remote_video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-05-16T18:34:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/remote_video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b34f6305-226b-4d8a-89c5-2e0d4eb4044e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/remote_video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/oembed_thumbnails\/KIALcSr35XFI3lI15w3XLSvKO-77wC2hdnEl4Fv9OPE.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e0ed6846-3cdb-43d7-823a-92cc7bc14de9"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Vampire Weekend - Oxford Comma",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-16T18:34:19+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-16T18:34:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/P_i1xk07o4g",
+            "lang": "en"
+        }
+    ]
+}

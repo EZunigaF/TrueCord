@@ -1,0 +1,20 @@
+uuid: bb23954a-37a7-4c6a-877f-2549c6e479e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - paragraphs
+id: paragraph.field_caratula
+field_name: field_caratula
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

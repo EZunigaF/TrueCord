@@ -1,0 +1,31 @@
+uuid: acef40a5-bab7-4430-acda-27aa291266a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bibliografia
+    - node.type.artista
+    - paragraphs.paragraphs_type.bibliografia
+  module:
+    - entity_reference_revisions
+id: node.artista.field_bibliografia
+field_name: field_bibliografia
+entity_type: node
+bundle: artista
+label: Bibliografia
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      bibliografia: bibliografia
+    target_bundles_drag_drop:
+      bibliografia:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

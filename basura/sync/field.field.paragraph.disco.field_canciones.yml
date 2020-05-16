@@ -1,0 +1,28 @@
+uuid: 96e01fe7-4966-49bc-beea-26bc0db3820c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_canciones
+    - node.type.cancion
+    - paragraphs.paragraphs_type.disco
+id: paragraph.disco.field_canciones
+field_name: field_canciones
+entity_type: paragraph
+bundle: disco
+label: Canciones
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      cancion: cancion
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

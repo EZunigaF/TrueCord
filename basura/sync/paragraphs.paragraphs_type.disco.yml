@@ -1,0 +1,10 @@
+uuid: a3dc5663-d9e9-497e-a5f8-9a06ffa1f7cf
+langcode: en
+status: true
+dependencies: {  }
+id: disco
+label: Disco
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

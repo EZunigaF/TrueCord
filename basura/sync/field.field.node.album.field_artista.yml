@@ -1,0 +1,28 @@
+uuid: e907ab72-4848-4855-864b-80aaa228cc1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_artista
+    - node.type.album
+    - node.type.artista
+id: node.album.field_artista
+field_name: field_artista
+entity_type: node
+bundle: album
+label: Artista
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      artista: artista
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

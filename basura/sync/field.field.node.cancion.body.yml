@@ -1,0 +1,23 @@
+uuid: ba667e37-5c2c-4b0d-9076-401e088fd886
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.cancion
+  module:
+    - text
+id: node.cancion.body
+field_name: body
+entity_type: node
+bundle: cancion
+label: Letra
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
