@@ -4,5 +4,5 @@
  Remove this comment if you don't want ddev to manage this file.'
  */
 if (getenv('IS_DDEV_PROJECT') == 'true') {
-  $options['l'] = "https://Musica.ddev.site";
+  $options['l'] = "https://TRUECORD.ddev.site";
 }
