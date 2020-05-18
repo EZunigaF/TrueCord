@@ -4,5 +4,5 @@
  Remove this comment if you don't want ddev to manage this file.'
  */
 if (getenv('IS_DDEV_PROJECT') == 'true') {
-  $options['l'] = "https://personalcore.ddev.site";
+  $options['l'] = "https://TRUECORDITM.ddev.site";
 }

@@ -1,0 +1,13 @@
+uuid: 1758afd9-b483-46cc-a394-9db4f8bf6eb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.genero
+id: taxonomy_term.genero.default
+targetEntityType: taxonomy_term
+bundle: genero
+mode: default
+content: {  }
+hidden:
+  description: true
