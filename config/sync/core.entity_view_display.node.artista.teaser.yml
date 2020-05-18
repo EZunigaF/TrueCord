@@ -4,7 +4,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.artista.field_awards
     - field.field.node.artista.field_bibliografia
+    - field.field.node.artista.field_comentarios_artist
     - field.field.node.artista.field_disco
     - field.field.node.artista.field_g
     - node.type.artista
@@ -20,23 +22,21 @@ content:
     type: entity_reference_revisions_entity_view
     weight: 1
     region: content
-    label: hidden
+    label: above
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
   field_g:
     type: entity_reference_label
-    weight: 2
+    weight: 0
     region: content
     label: above
     settings:
       link: true
     third_party_settings: {  }
-  links:
-    weight: 0
-    region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
+  field_awards: true
+  field_comentarios_artist: true
   field_disco: true
+  links: true

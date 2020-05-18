@@ -1,0 +1,20 @@
+uuid: 04c8d37e-7f70-4a25-99c2-46086b21a1a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_awards
+field_name: field_awards
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

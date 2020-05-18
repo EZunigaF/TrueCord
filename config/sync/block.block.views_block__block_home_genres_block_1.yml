@@ -1,0 +1,24 @@
+uuid: e18c3686-f4f4-40b7-b78d-739b70e43e04
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.block_home_genres
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__block_home_genres_block_1
+theme: bartik
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'views_block:block_home_genres-block_1'
+settings:
+  id: 'views_block:block_home_genres-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

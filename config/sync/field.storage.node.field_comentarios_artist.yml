@@ -1,0 +1,20 @@
+uuid: 8f3a3ac1-7321-4ff2-80cf-6e1b1cc3655f
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - node
+id: node.field_comentarios_artist
+field_name: field_comentarios_artist
+entity_type: node
+type: comment
+settings:
+  comment_type: comment
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

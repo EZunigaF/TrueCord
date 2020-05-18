@@ -3,11 +3,15 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.artista.field_awards
     - field.field.node.artista.field_bibliografia
+    - field.field.node.artista.field_comentarios_artist
     - field.field.node.artista.field_disco
     - field.field.node.artista.field_g
     - node.type.artista
   module:
+    - comment
     - entity_reference_revisions
     - user
 id: node.artista.default
@@ -15,17 +19,34 @@ targetEntityType: node
 bundle: artista
 mode: default
 content:
+  field_awards:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
   field_bibliografia:
     type: entity_reference_revisions_entity_view
-    weight: 101
+    weight: 1
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
     region: content
+  field_comentarios_artist:
+    weight: 5
+    label: inline
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: content
   field_disco:
-    weight: 103
+    weight: 4
     label: hidden
     settings:
       view_mode: search_result
@@ -34,7 +55,7 @@ content:
     type: entity_reference_entity_view
     region: content
   field_g:
-    weight: 102
+    weight: 2
     label: inline
     settings:
       link: true
@@ -42,7 +63,7 @@ content:
     type: entity_reference_label
     region: content
   links:
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }

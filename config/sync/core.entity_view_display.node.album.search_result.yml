@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.search_result
     - field.field.node.album.field_artista
     - field.field.node.album.field_canciones_album
+    - field.field.node.album.field_comentarios
     - field.field.node.album.field_lanzamiento
     - node.type.album
   module:
@@ -27,5 +28,6 @@ content:
     region: content
 hidden:
   field_artista: true
+  field_comentarios: true
   field_lanzamiento: true
   links: true

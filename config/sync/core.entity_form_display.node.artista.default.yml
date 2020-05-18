@@ -3,11 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.artista.field_awards
     - field.field.node.artista.field_bibliografia
+    - field.field.node.artista.field_comentarios_artist
     - field.field.node.artista.field_disco
     - field.field.node.artista.field_g
     - node.type.artista
   module:
+    - comment
     - paragraphs
     - path
 id: node.artista.default
@@ -21,6 +24,16 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_awards:
+    weight: 124
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_bibliografia:
     type: entity_reference_paragraphs
     weight: 121
@@ -32,6 +45,12 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
+    region: content
+  field_comentarios_artist:
+    weight: 125
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
     region: content
   field_disco:
     weight: 123

@@ -1,0 +1,29 @@
+uuid: ed89faf3-71d6-4c15-8c4b-741f1f55ff67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_awards
+    - node.type.artista
+    - taxonomy.vocabulary.tags
+id: node.artista.field_awards
+field_name: field_awards
+entity_type: node
+bundle: artista
+label: Awards
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

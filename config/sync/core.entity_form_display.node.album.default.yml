@@ -5,9 +5,11 @@ dependencies:
   config:
     - field.field.node.album.field_artista
     - field.field.node.album.field_canciones_album
+    - field.field.node.album.field_comentarios
     - field.field.node.album.field_lanzamiento
     - node.type.album
   module:
+    - comment
     - datetime
     - paragraphs
     - path
@@ -43,6 +45,12 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
+    region: content
+  field_comentarios:
+    weight: 124
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
     region: content
   field_lanzamiento:
     weight: 121
