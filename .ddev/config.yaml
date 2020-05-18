@@ -1,5 +1,5 @@
 APIVersion: v1.13.1
-name: Musica
+name: TRUECORD
 type: drupal8
 docroot: web
 php_version: "7.1"
