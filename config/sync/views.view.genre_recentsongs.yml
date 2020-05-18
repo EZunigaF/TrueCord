@@ -304,7 +304,7 @@ display:
           specify_validation: true
           validate:
             type: none
-            fail: 'not found'
+            fail: 'access denied'
           validate_options: {  }
           break_phrase: true
           not: false
