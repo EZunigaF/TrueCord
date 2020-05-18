@@ -1,5 +1,5 @@
 APIVersion: v1.13.1
-name: TRUECORD
+name: GIT
 type: drupal8
 docroot: web
 php_version: "7.1"
